@@ -20,6 +20,11 @@ LOG_FILE_PATH = os.path.join(LOGS_DIR_PATH, LOG_FILENAME)
 INVALID_BINARY_FORMAT = 8
 
 programs = {
+    "json.kt":
+        {
+            "url": "https://github.com/krossovochkin/json.kt",
+            "commands":["C:/Program Files (x86)/Java/jre1.8.0_121/bin/java.exe", "-jar", os.path.join(PARSERS_DIR, "test_json_kt/TestJSONParsing.jar")]
+        },
     "Bash JSON.sh 2016-08-12":
         {
             "url":"https://github.com/dominictarr/JSON.sh",
@@ -359,7 +364,7 @@ programs = {
    "Java gson 2.7":
        {
            "url":"",
-           "commands":["/usr/bin/java", "-jar", os.path.join(PARSERS_DIR, "test_java_gson_2_7/TestJSONParsing.jar")]
+           "commands":["C:/Program Files (x86)/Java/jre1.8.0_121/bin/java.exe", "-jar", os.path.join(PARSERS_DIR, "test_java_gson_2_7/TestJSONParsing.jar")]
        },
    "Java BFO v1":
        {
